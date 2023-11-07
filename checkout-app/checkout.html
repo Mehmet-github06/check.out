@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Checkout</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Library App</h1>
+      <img src="./img/kitaplogo.png" style="width: 60px; height: 60px" />
+    </header>
+
+    <nav>
+      <div class="my-cart">Books</div>
+      <div class="delete-div">
+        Delete Products <i class="fa-regular fa-trash-can"></i>
+      </div>
+    </nav>
+
+    <main>
+      <section class="product-list">
+        <h2 class="store"><small>Store:</small> BooksStore</h2>
+        <article class="products">
+          <div class="product">
+            <figure>
+              <img
+                src="https://r2.1k-cdn.com/sig/size:96/plain/https%3A%2F%2F1k-cdn.com%2Fresimler%2Fkitaplar%2F56586_1658894462_Rfojn.jpg"
+                alt="img"
+              />
+            </figure>
+            <div class="product-info">
+              <h2>Bilinmeyen Bir Kadının Mektubu</h2>
+              <div class="product-prices">
+                <strong class="dollar" id="discounted-price">5.5</strong>
+                <span class="line-through dollar">7.5</span>
+              </div>
+              <div class="buttons-div">
+                <div>
+                  <div class="plus-minus">
+                    <i class="fa-solid fa-minus"></i>
+                    <span class="quantity" id="quantity">1</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="dollar" id="product-price">5.5</div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <figure>
+              <img
+                src="https://r2.1k-cdn.com/sig/size:96/plain/https%3A%2F%2F1k-cdn.com%2Fresimler%2Fkitaplar%2F27823_62bf3_1630271083.jpg"
+                alt="img"
+              />
+            </figure>
+            <div class="product-info">
+              <h2>Simyacı</h2>
+              <div class="product-prices">
+                <strong class="dollar" id="discounted-price">10.2</strong>
+                <span class="line-through dollar">10.5</span>
+              </div>
+              <div class="buttons-div">
+                <div>
+                  <div class="plus-minus">
+                    <i class="fa-solid fa-minus"></i>
+                    <span class="quantity" id="quantity">1</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="dollar" id="product-price">10.2</div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <figure>
+              <img
+                src="https://r2.1k-cdn.com/sig/size:96/plain/https%3A%2F%2F1k-cdn.com%2Fresimler%2Fkitaplar%2F39535_HJjM9_1515265915.jpg"
+                alt="img"
+              />
+            </figure>
+            <div class="product-info">
+              <h2>Uçurtma Avcısı</h2>
+              <div class="product-prices">
+                <strong class="dollar" id="discounted-price">10.5</strong>
+                <span class="line-through dollar">13</span>
+              </div>
+              <div class="buttons-div">
+                <div>
+                  <div class="plus-minus">
+                    <i class="fa-solid fa-minus"></i>
+                    <span class="quantity" id="quantity">1</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="dollar" id="product-price">10.5</div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <figure>
+              <img
+                src="https://r2.1k-cdn.com/sig/size:96/plain/https%3A%2F%2F1k-cdn.com%2Fresimler%2Fkitaplar%2F9414_56d68_1551424706.jpg"
+                alt="img"
+              />
+            </figure>
+            <div class="product-info">
+              <h2>Şeker Portakalı</h2>
+              <div class="product-prices">
+                <strong class="dollar" id="discounted-price">7.3</strong>
+                <span class="line-through dollar">10.3</span>
+              </div>
+              <div class="buttons-div">
+                <div>
+                  <div class="plus-minus">
+                    <i class="fa-solid fa-minus"></i>
+                    <span class="quantity" id="quantity">1</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="dollar" id="product-price">7.3</div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <figure>
+              <img
+                src="https://r2.1k-cdn.com/sig/size:96/plain/https%3A%2F%2F1k-cdn.com%2Fresimler%2Fkitaplar%2F100_1472675944.jpg"
+                alt="img"
+              />
+            </figure>
+            <div class="product-info">
+              <h2>1984</h2>
+              <div class="product-prices">
+                <strong class="dollar" id="discounted-price">7.5</strong>
+                <span class="line-through dollar">10.1</span>
+              </div>
+              <div class="buttons-div">
+                <div>
+                  <div class="plus-minus">
+                    <i class="fa-solid fa-minus"></i>
+                    <span class="quantity" id="quantity">1</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="dollar" id="product-price">7.5</div>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <figure>
+              <img
+                src="https://r2.1k-cdn.com/sig/size:96/plain/https%3A%2F%2F1k-cdn.com%2Fresimler%2Fkitaplar%2F56085_AFXW2_1496331048.jpg"
+                alt="img"
+              />
+            </figure>
+            <div class="product-info">
+              <h2>Körlük</h2>
+              <div class="product-prices">
+                <strong class="dollar" id="discounted-price">10.5</strong>
+                <span class="line-through dollar">12.5</span>
+              </div>
+              <div class="buttons-div">
+                <div>
+                  <div class="plus-minus">
+                    <i class="fa-solid fa-minus"></i>
+                    <span class="quantity" id="quantity">1</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                  <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="dollar" id="product-price">10.5</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="price-table">
+        <div class="total-prices">
+          <div>
+            <h4>SELECTED PRODUCTS</h4>
+            <h2 class="dollar" id="selected-price">1.750,97</h2>
+          </div>
+          <button class="finish-btn">Finish Order</button>
+        </div>
+
+        <div class="total-info">
+          <div class="text-div">
+            <span>Shipping</span>
+            <span class="dollar" id="shipping">0.00</span>
+          </div>
+
+          <div class="text-div">
+            <span>Tax %18</span>
+            <span class="dollar" id="tax">315,17</span>
+          </div>
+
+          <div class="text-div">
+            <span>Total</span>
+            <span class="dollar" id="total">2092,13</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="checkout2.js"></script>
+  </body>
+</html>
