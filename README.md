@@ -1,39 +1,49 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+# Library App Checkout
 
-# Project : Checkout_Page
+This project implements a checkout system for a library app where users can purchase books. The checkout system calculates the total price, including discounts, taxes, and shipping costs, and allows users to manage their cart by adding, removing, and adjusting the quantity of items.
 
-## Description
-Project aims to create a real checkout page of e-commerce website.
+## Technologies Used
 
-## Learning Outcomes
+- HTML5
+- CSS3
+- JavaScript
 
-At the end of the this project, students will be able to;
+## Features
 
-- analyze a problem, create e-commerce website page.
+- **Product List**: Display a list of available books with images, titles, prices, and quantity controls.
+- **Delete Products**: Allow users to remove products from their cart.
+- **Total Calculation**: Calculate the total price of the selected products, including discounts, taxes, and shipping costs.
+- **Responsive Design**: Ensure the application works well on various screen sizes.
 
-- demonstrate their knowledge of algorithmic design principles for dynamic calculation of product's cart.
+## How to Use
 
-   
-## Problem Statement
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Browse through the available books and add them to your cart.
+4. Adjust the quantity of items or remove them as needed.
+5. Review the total price and proceed to checkout.
 
-- Create a checkout page following the design and make the calculation of cart dynamically with using of DOM and Event in JS.
+## Project Structure
 
-![Form](checkout.gif)
+- `index.html`: Main HTML file that displays the checkout interface.
+- `css/index.css`: CSS file containing styles for the checkout interface.
+- `checkout2.js`: JavaScript file containing the logic for managing the cart and calculating prices.
 
+## Screenshots
 
--  User story;
+![Screenshot 1](./img/Screenshot_1.jpg)
+![Screenshot 2](./img/Screenshot_2.jpg)
 
-   - When I click plus button on product's row, I can increase the product's quantity.
-   - When I click minus button on product's row, I can decrease the product's quantity, but minimum quantity value can be 1.
-   - When I click remove button on product's row or I decrease the quantity to 0, I can delete a product in the cart.
-   - When I change any combination of product chart(plus, minus, remove etc.), I want to see the new calculation of chart's prices in concerned fields.
+## Live Demo
 
-## Demo
-<a href="https://anthony-checkout-apps.vercel.app/">Live</a>
-## Resources
+[Live Demo](https://example.com)
 
-- [Images](./img/)
+## Author
+
+[Your Name](https://github.com/yourusername)
+
+Feel free to contribute to this project by submitting bug reports or feature requests.
+
 
 
 
