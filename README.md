@@ -36,11 +36,11 @@ This project implements a checkout system for a library app where users can purc
 
 ## Live Demo
 
-[Live Demo](https://example.com)
+[Live Demo](https://check-out-iota.vercel.app/)
 
 ## Author
 
-[Your Name](https://github.com/yourusername)
+[Your Name](https://github.com/Mehmet-github06)
 
 Feel free to contribute to this project by submitting bug reports or feature requests.
 
